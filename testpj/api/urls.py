@@ -1,8 +1,9 @@
 from django.conf.urls import url
 from django.contrib import admin
-from api.views import index
+from api.views import index1
 #wghtest
+#wghtestNO2update
 
 urlpatterns = [
-    url(r'^', index),
+    url(r'^', index1),
 ]
